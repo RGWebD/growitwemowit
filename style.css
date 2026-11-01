@@ -121,3 +121,4 @@ nav ul .btn{white-space:nowrap}}
 @media(max-width:380px){nav ul .btn{padding:8px 10px;font-size:.75rem}}
 .navcall .cmob{display:none}
 @media(max-width:800px){nav ul .btn.navcall{padding:6px 10px;font-size:.75rem;line-height:1;border-radius:999px}.navcall .cfull{display:none}.navcall .cmob{display:inline-flex;align-items:center;gap:5px;text-transform:lowercase}}
+@media(max-width:800px){nav ul .btn.navcall{padding:4px 9px;font-size:.68rem;letter-spacing:.5px;min-height:0}}
