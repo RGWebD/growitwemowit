@@ -1,5 +1,5 @@
 # Grow It We Mow It — static site (index.html + merch.html)
-Open index.html via any web host (the YouTube background needs http/https, not file://).
+Open index.html via any web host. The hero background is a local muted video (assets/hero.mp4); background music is assets/hero-audio.mp3 with a play/pause button (sound.js). Browsers may block autoplay with sound, so music starts on the visitor's first click/tap/keypress if blocked.
 
 ## Live Google reviews (reviews.js)
 - Business: Grow It We Mow It LLC — Google Place ID: `ChIJq-2UBp-l-4gRPLJjHt2ujaE`
