@@ -110,3 +110,12 @@ footer{border-top:1px solid #1d2a1b;padding:40px 0;text-align:center;color:var(-
 .pick h3{font-size:.85rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .pick .go{font-size:.8rem}
 @media(max-width:600px){.picks{grid-template-columns:repeat(2,1fr);gap:10px}.pick img{height:110px}}
+.shopdd{display:none}
+@media(max-width:800px){nav ul li.mmerch{display:none}nav ul li.shopdd{display:block;position:relative}
+.shopdd summary{list-style:none;cursor:pointer;font-family:'Anton',sans-serif;text-transform:uppercase;letter-spacing:1px;color:var(--g);font-size:.95rem;padding:8px 4px}
+.shopdd summary::-webkit-details-marker{display:none}
+.shopdd .ddm{position:absolute;right:0;top:calc(100% + 8px);min-width:190px;background:var(--dk);border:1px solid var(--g);border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.6),0 0 18px rgba(189,242,90,.25);padding:6px;z-index:1001;display:flex;flex-direction:column}
+.shopdd .ddm a{padding:12px 14px;border-radius:6px;color:var(--tx);text-decoration:none;font-family:'Anton',sans-serif;text-transform:uppercase;letter-spacing:1px;font-size:.95rem}
+.shopdd .ddm a:hover,.shopdd .ddm a:focus-visible{background:rgba(189,242,90,.15);color:var(--g)}
+nav ul .btn{white-space:nowrap}}
+@media(max-width:380px){nav ul .btn{padding:8px 10px;font-size:.75rem}}
